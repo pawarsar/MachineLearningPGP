@@ -1,0 +1,48 @@
+Background
+Cred-Pay is a consultation firm that partners with banks and checks if their customers are eligible for a credit card. They are a startup just at the roots of starting their business. They have partnered with a few banks and are currently collecting data for credit card applications.
+
+ 
+
+Objective
+You have been hired as a Data Scientist to handle and organize the data. You are responsible to organize the data so that it will be easily accessible and to help the company predict if the application can be accepted for a credit card or not.
+
+ 
+
+Key Questions
+How to create organized data using variables and data structures?
+How to organize and query the data?
+ 
+
+
+Business Outcomes of the Case Study
+Efficient Data Organization: Using variables, lists, and dictionaries ensures that customer data is stored in a structured format, making it easy to retrieve, operate on, and update.
+Example: A dictionary of customer profiles allows quick lookup of income and credit score for effective decision-making.
+
+Faster Eligibility Checks: Conditional statements and loops speed up the process of checking multiple eligibility criteria across thousands of applications.
+Example: A loop can quickly check if applicants from a given list meet age, income, and employment conditions for a loan simultaneously.
+
+Improved Accuracy in Decisions: Functions encapsulate eligibility logic, reducing manual errors and ensuring consistent decisions across all applications.
+Example: A function can take income and credit score as inputs and return eligibility for a loan consistently for every applicant.
+
+Scalability of Operations: By applying list comprehensions and loops, Cred-Pay can scale from handling hundreds of applications to millions without any performance issues.
+Example: A list comprehension can filter out all applicants with income above a threshold in a single line of code, even when processing millions of entries.
+
+Better Business Insights: Organized data structures allow easy querying and analysis, helping management identify patterns such as the most common reasons for rejection.
+Example: By looping through all rejected applications, the firm can find that “low income” is the top cause and design new financial products for that segment.
+
+
+Use Cases Across Other Industries
+Banking & Financial Services: Banks worldwide organize customer data (name, age, income, credit history) using variables and dictionaries to decide loan and credit card eligibility.
+Example: A bank in the US may use Python dictionaries to store applicants’ credit scores and loop through them to flag high-risk customers.
+
+E-commerce: Online retailers like Flipkart use tuples to store product attributes (price, category, discount) and optimize recommendation engines.
+Example: By iterating through a tuple of product details, the system can recommend “similar products under ₹999” when a customer views a budget smartphone.
+
+Healthcare: Clinics store patient test results in dictionaries and use functions to calculate health indicators.
+Example: A dictionary like patient = {"name": "John", "bp": 120, "sugar": 150} can be passed into a function that checks conditions, if sugar > 140, it flags the patient for a follow-up consultation.
+
+Telecommunications: Telecom providers use functions to check user eligibility for postpaid connections and premium services based on billing history.
+Example: A telecom firm in Asia can run a function that checks if a customer with prepaid history can be upgraded to a credit-based postpaid plan.
+
+Travel & Hospitality: Airlines and hotels leverage list comprehensions to quickly filter loyal customers eligible for co-branded credit cards or upgrades.
+Example: A hotel chain in the Middle East might create a list comprehension that extracts all guests who stayed more than 10 times last year for targeted credit card offers.

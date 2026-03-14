@@ -1,0 +1,72 @@
+Context
+Ridesharing is a service that arranges transportation on short notice. It is a very volatile market and its demand fluctuates wildly with time, place, weather, local events, etc. The key to being successful in this business is to be able to detect patterns in these fluctuations and cater to the demand at any given time.
+
+ 
+
+Objective
+Uber Technologies, Inc. is an American multinational transportation network company based in San Francisco and has operations in over 785 metropolitan areas with over 110 million users worldwide. As a newly hired Data Scientist in Uber's New York Office, you have been given the task of extracting actionable insights from data that will help in the growth of the business.
+
+ 
+
+Key Questions
+What are the different variables that influence the number of pickups?
+Which factor affects the number of pickups the most? What could be the possible reasons for that?
+What are your recommendations to Uber management to capitalize on fluctuating demand?
+ 
+
+Guidelines
+Perform univariate analysis on the data to better understand the variables at your disposal
+Perform bivariate analysis to better understand the correlation between different variables
+Create visualizations to explore data and extract the insights
+Create a presentation for Uber Management, detailing all the insights along with supporting data.
+ 
+
+Data
+The data contains the details for the Uber rides across various boroughs (subdivisions) of New York City at an hourly level and attributes associated with weather conditions at that time.
+
+pickup_dt: Date and time of the pick-up.
+borough: NYC's borough.
+pickups: Number of pickups for the period (hourly).
+spd: Wind speed in miles/hour.
+vsb: Visibility in miles to the nearest tenth.
+temp: Temperature in Fahrenheit.
+dewp: Dew point in Fahrenheit.
+slp: Sea level pressure.
+pcp01: 1-hour liquid precipitation.
+pcp06: 6-hour liquid precipitation.
+pcp24: 24-hour liquid precipitation.
+sd: Snow depth in inches.
+hday: Being a holiday (Y) or not (N).
+
+Business Outcomes of the Case Study
+Optimized Driver Allocation: By visualizing pickup demand across boroughs and times, Uber can ensure drivers are available where they are most needed, reducing wait times.
+Example: A heatmap of pickups shows Manhattan surges during late evenings, prompting Uber to allocate more drivers there after 8 PM.
+
+Revenue Growth through Dynamic Pricing: Insights from bivariate analysis between demand and weather/holiday variables can help refine surge pricing strategies.
+Example: A line plot of precipitation vs. pickups shows higher demand during rain, allowing Uber to activate dynamic pricing to maximize revenue.
+
+Improved Customer Satisfaction: By analyzing delays and demand fluctuations, Uber can minimize cancellations and improve ride availability, leading to better user trust.
+Example: A boxplot analysis reveals pickup delays are highest in snowy conditions; Uber can pre-notify customers of possible delays and offer incentives.
+
+Strategic Business Expansion: EDA helps Uber identify underserved boroughs or time slots, guiding investment in driver recruitment and marketing.
+Example: Scatterplots of pickups vs. boroughs show underutilization in Staten Island, helping Uber decide to launch targeted driver incentives there.
+
+Data-Driven Policy & Event Planning: Visualizations of holiday/event impacts on rides can help Uber prepare for high-demand scenarios in advance.
+Example: A bar graph of pickups on holidays shows New Year’s Eve peaks significantly higher; Uber can increase active driver bonuses that night.
+
+
+Use Cases Across Other Industries
+Transportation & Logistics: Ride-hailing and delivery companies use visualizations like heatmaps and line plots to identify demand patterns across locations and times.
+Example: Uber in London can use a heatmap of pickups per borough to allocate more drivers in high-demand zones during evening rush hours.
+
+Retail & E-commerce: Businesses track sales across locations and holidays using bar charts and time-series plots, helping them plan promotions and stocks more effectively.
+Example: Amazon can visualize order spikes during Black Friday across regions to manage inventory distribution in warehouses.
+
+Healthcare: Hospitals use scatterplots and boxplots to analyze the relationship between weather (temperature, air quality) and emergency visits, enabling better resource allocation.
+Example: A hospital in Toronto can use EDA to show how extreme cold drives an increase in emergency admissions due to respiratory issues.
+
+Aviation & Travel: Airlines use pairplots and trend visualizations to detect correlations between weather conditions and flight delays.
+Example: Delta Airlines can visualize how low visibility (vsb) and snow depth (sd) affect flight cancellations at New York airports.
+
+Energy & Utilities: Power companies analyze consumption trends using line plots and heatmaps to anticipate demand spikes during weather changes.
+Example: An energy provider in Germany can visualize electricity demand rising during winter months to adjust energy production in real-time.
